@@ -1,0 +1,72 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# Ignore user-specific files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+*.pidb
+*.booproj
+
+# Auto-generated VS/MD/Consulo solution and project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Build results
+*.apk
+*.aab
+*.unitypackage
+
+# Temporary files
+*.tmp
+*.temp
+
+# Crash reports
+crash_reports/
+
+# Ignore crashlytics
+crashlytics-build.properties
+
+# Ignore Google Play dependencies
+Assets/PlayServicesResolver/
+
+# JetBrains Rider
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/.rider-local
+.idea/project.pbxproj
+
+# Rider solution files
+*.sln
+*.csproj
+*.user
+*.pidb
+*.suo
+*.rider
+*.dotSettings
+*.dotSettings.user
+
+# MacOS
+.DS_Store
